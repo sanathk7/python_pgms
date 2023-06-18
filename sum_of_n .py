@@ -9,3 +9,16 @@ def sum_of(n):
     
 print(sum_of(5))
 
+''' THIS IS OTHER METHOD USING WHILE LOOP, HERE USER CAN FIND MORE THAN THE ABOVE PROGRAM
+    '''
+def sum_of_previous(n):
+    sum_=0
+    if n==0:
+        return 0
+    
+    while n>=1:
+        sum_+=n
+        n-=1# -*- coding: latin-1 -*-
+    return sum_
+    
+print(sum_of_previous(10000))
